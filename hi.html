@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to Dog Adoption Center</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#dogs">Available Dogs</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <h2>Find Your New Best Friend</h2>
+        <p>We have many dogs looking for loving homes. Browse our available dogs and find your new best friend today!</p>
+    </section>
+    <section id="dogs">
+        <h2>Available Dogs</h2>
+        <div class="dog-list">
+            <!-- Dog profiles will be inserted here by JavaScript -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Assistant" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="assistant@example.com" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required>Hello! I am interested in adopting a dog.</textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Dog Adoption Center</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
